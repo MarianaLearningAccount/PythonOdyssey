@@ -1,0 +1,41 @@
+# Aceasta este a treia ta sarcină a lecției legată de type conversion și input-ul user-ului în python
+# Creează o variabilă numită `number` și atribuie-i valoarea `10`
+# CODUL TĂU VINE MAI JOS:
+number = 10
+# CODUL TĂU VINE MAI SUS:
+
+# Acum afișează valoarea variabilei `number` folosind funcția `print`
+# CODUL TĂU VINE MAI JOS:
+print(f'Value of variable "number" is: {number}')
+# CODUL TĂU VINE MAI SUS:
+
+# Acum cere user-ului să introducă un număr și atribuie acea valoare variabilei `number` și afișeaz-o folosind funcția `print`
+# CODUL TĂU VINE MAI JOS:
+number = int(input('Enter a value for "number" variable:'))
+print(f'New value of variable "number" is: {number}')
+# CODUL TĂU VINE MAI SUS:
+
+# Acum afișează tipul variabilei `number` folosind funcția `print`
+# CODUL TĂU VINE MAI JOS:
+print(f'Type of "number" is: {type(number)}')
+# CODUL TĂU VINE MAI SUS:
+
+# Convertește variabila `number` la tipul `float` și afișează tipul variabilei `number` folosind funcția `print`
+# CODUL TĂU VINE MAI JOS:
+number = float(number)
+print(f'Type of "number" after conversion to float is: {type(number)}')
+# CODUL TĂU VINE MAI SUS:
+
+# Convertește variabila `number` la tipul `str` și afișează tipul variabilei `number` folosind funcția `print`
+# CODUL TĂU VINE MAI JOS:
+number = str(number)
+print(f'Type of "number" after conversion to str is: {type(number)}')
+# CODUL TĂU VINE MAI SUS:
+
+# Convertește variabila `number` la tipul `bool` și afișează tipul variabilei `number` folosind funcția `print`
+# CODUL TĂU VINE MAI JOS:
+number = bool(number)
+print(f'Type of "number" after conversion to bool is: {type(number)}')
+# CODUL TĂU VINE MAI SUS:
+
+# Asta a fost tot pentru această sarcină
