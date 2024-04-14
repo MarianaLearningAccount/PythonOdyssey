@@ -34,50 +34,47 @@ print(f'number // number3 = {number // number3}')
 # CODUL TĂU VINE MAI SUS:
 
 # Creează o nouă variabilă numită `number4` și atribuie-i o valoare numerică mare într-un mod literal
-
 # CODUL TĂU VINE MAI JOS:
-
+number4 = 1e9
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișează tipul variabilei `number4` folosind funcția `print`
-
 # CODUL TĂU VINE MAI JOS:
-
+print(f'Type of "number4" is: {type(number4)}')
 # CODUL TĂU VINE MAI SUS:
 
 # Creați o variabilă `numar` și atribuiții valoarea 5.0
-
 # CODUL TĂU VINE MAI JOS:
-
+numar = 5.0
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișați tipul lui `numar` folosind funcția `print`
-
 # CODUL TĂU VINE MAI JOS:
-
+print(f'Type of "numar" is: {type(numar)}')
 # CODUL TĂU VINE MAI SUS:
 
 # Acum creați o variabilă `numar2` și atribuiții valoarea 2.0
-
 # CODUL TĂU VINE MAI JOS:
-
+numar2 = 2.0
 # CODUL TĂU VINE MAI SUS:
 
 # Acum creați o variabila `numar_mare` și atribuiți-i o valoare mare utilizând numerele literale
-
 # CODUL TĂU VINE MAI JOS:
-
+numar_mare = 1e6
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișați tipul lui `numar_mare` folosind funcția `print`
-
 # CODUL TĂU VINE MAI JOS:
-
+print(f'Type of "numar_mare" is: {type(numar_mare)}')
 # CODUL TĂU VINE MAI SUS:
 
 # Acum ștergeți variabila `numar_mare` folosind instrucțiunea `del`
-
 # CODUL TĂU VINE MAI JOS:
+del numar_mare
+try:
+    print(f'Value of "numar_mare" is: {numar_mare}')
+except NameError:
+    print('Variable "numar_mare" is not defined')
 
 # CODUL TĂU VINE MAI SUS:
 
